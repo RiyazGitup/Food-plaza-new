@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Food plaza!</title>
+    <link rel="icon" href="../media/foodplaza.png">
+    
+    
+    <!-- css file link -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Font Awsome style link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<!-- desktop view -->
+<div id="container" class="container">
+    <div id="menu">
+        <div class="brand-logo">
+            <img src="../media/foodplaza.png" alt="brand-logo">
+        </div>
+        <div class="menu-item">
+            <a href="#About">About</a>
+            <a href="#party">services</a>
+            <a href="#cart-page">Your orders</a>
+            <a href="#" id="mm-add-address">Address</a>
+            <a href="#" id="Helpline">Help</a>
+
+
+
+        </div>
+    </div>
+<div id="Food-container">
+    <div id="header">
+        <div class="add-box">
+            <i class="fa fa-map-marker your-address" id="add-address">Your Address</i>
+        </div>
+        <div class="util">
+            <i class="fa fa-search" id="add-search">Search</i>
+           <a href="#offer-up"> <i class="fa fa-tags" id="offer"> Offers</i></a>
+            <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
+
+        </div>
+    </div>
+    <div id="food-items" class="d-food-items" >
+        <div id="biriyani" class="d-biryani">
+            <p id="category-name">Biriyani Heaven!</p>
+           
+        </div>
+
+        <div id="chicken" class="d-chicken">
+            <p id="category-name">Chicken Delicious</p>
+            
+
+        </div>
+
+        <div id="chinese" class="d-chinese">
+            <p id="category-name">Chinese Damaka!</p>
+            
+
+        </div>
+
+        <div id="south-indian" class="d-south-indian">
+            <p id="category-name">South-Indian Masala's</p>
+            
+
+        </div>
+
+        <div id="paneer" class="d-paneer">
+            <p id="category-name">Paneer spices</p>
+            
+        </div>
+            <div id="momo" class="d-momo">
+                <p id="category-name">Momo Mania!</p>
+
+        </div>
+<a href="" id="party">Party Orders!</a>   
+     <img src="../media/partyorder.jpg" alt="">
+
+     <br>
+
+<a href="" id="offer-up">Grab it=></a>
+
+<img src="../media/offer.jpg" alt="img">
+<br>
+<a href="" id="About">About=></a>
+<img src="../media/about-us.jpg" alt="">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="cart-page" class="cart-toggle">
+<p id="cart-title">Cart Items</p>
+<p id="m-total-amount">Total Amount : $100</p>
+<table>
+<thead>
+<td>Item</td>
+<td>Name</td>
+<td>Quantity</td>
+<td>Price</td>
+</thead>
+<tbody id="table-body">
+
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+<div class="btn-box" id="orderplaced">
+                    <button class="cart-btn">Checkout</button>
+                </div>
+
+                <!-- <div class="centre" id="centre1">
+                    <h1>Login</h1>
+                    <form method="post">
+                        <div class="txt-field">
+                            <input type="text" required>
+                            <label>Username</label>
+                        </div>
+                        <div class="txt-field">
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="pass">Forget password?</div>
+                        <input type="submit"  value="Login">
+                        <div class="signup_link">
+                            Not a member? <a href="">Signup</a>
+                   </div>
+                    </form>   
+                
+</div> -->
+
+</div>
+</div>
+
+
+
+<div id="cart">
+    <div class="taste-header">
+<div class="user">
+    <i class="fa fa-user-circle">
+        Account
+    </i>
+</div>
+
+    </div>
+<div id="category-list">
+<p class="item-menu">Go For Hunt</p>
+<div class="border"></div>
+
+
+</div>
+<div id="checkout" class="cart-toggle">
+    <p id="total-item">Total Item : 0</p>
+    <p id="total-price"></p>
+    <p id="delivery">Free Delivery on $ 40</p>
+    <button class="cart-btn">Checkout</button>
+    
+    
+</div>
+</div>
+</div>
+
+<!-- loader part -->
+
+<div class="loader">
+    <img src="../media/loader gif.gif" alt="">
+</div> 
+
+
+
+<!-- mobile view -->
+
+<div id="mobile-view"  class="mobile-view">
+    <div class="mobile-top">
+        <div class="logo-box">
+            <img src="../media/foodplaza.png" alt="" id="logo">
+            <i class="fa fa-map-marker your-address" id="m-add-address"> Your Address</i>
+        </div>
+        <div class="top-menu">
+            <i class="fa fa-search" id="m-add-search"></i>
+            <a href="#offer-up"> <i class="fa fa-tag"></i></a>
+            <i class="fa fa-heart-o" id="mm-cart-plus"></i>
+            <i class="fa fa-cart-plus" id="m-cart-plus"> 0</i>
+        </div>
+    </div>
+    
+
+    <div class="item-container">
+        <div class="category-header" id="category-header">  
+        </div>
+
+        <div id="food-items" class="food-items">
+            <div id="biriyani" class="m-biryani">
+                <p id="category-name">Biryani Heaven!</p>    
+            </div>
+            <div id="chicken" class="m-chicken">
+                <p id="category-name">Chicken Delicious</p>    
+            </div>
+            <div id="paneer" class="m-paneer">
+                <p id="category-name">Paneer Spices</p>
+            </div>
+            <div id="momo" class="m-momo">
+                <p id="category-name">Momo Mania</p> 
+            </div>
+            <div id="chinese" class="m-chinese">
+                <p id="category-name">Chinese Damaka!</p> 
+            </div>
+            <div id="south-indian" class="m-south-indian">
+                <p id="category-name">South-Indian Masala's</p>
+
+                
+            </div>
+        </div>            
+    </div>
+    
+
+    <div class="mobile-footer">
+    
+        <a href="#food-items">Home</a>
+        <a href="#cart-page">Cart</a>
+        <a href="#offer-up" id="offer">offers</a>
+        <a href="#cart-page">orders</a>
+    </div>
+
+</div>
+
+
+<!-- Javascript file -->
+<script src="/assets/js/script.js" type="module"></script>
+</body>
+
+</html>
